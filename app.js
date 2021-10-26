@@ -42,3 +42,9 @@ while (i<50) {
     console.log(i);
     i++;
 }
+
+// 4.
+do {
+     i++;
+     console.log(i);
+} while (i<150);
