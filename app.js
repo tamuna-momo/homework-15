@@ -35,4 +35,10 @@ console.log(currentDay[6]);
 for (i=0; i<100; i++){
     console.log(i);
 }
-    
+ 
+// 3.
+i=0;
+while (i<50) {
+    console.log(i);
+    i++;
+}
