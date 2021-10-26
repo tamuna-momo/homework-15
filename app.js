@@ -51,10 +51,22 @@
 
 // 5. 
 // numbers=[];
-// for( let i=0; i<10000; i++){
+// for( i=0; i<10000; i++){
 //     console.log(i * i);   
 // }
 // numbers.push(i * i);
 
 // 6.
+let numArray=[ 
+    10, 9, 9, 8, 8, 11, 8, 0 ,9, 1
+];
+numArray.sort (function(a, b) {
+    return b - a;
+});
+console.log(numArray[1]);
+
+
+
+
+  
 
