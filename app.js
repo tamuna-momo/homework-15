@@ -30,3 +30,9 @@ console.log(currentDay[3]);
 console.log(currentDay[4]);
 console.log(currentDay[5]);
 console.log(currentDay[6]);
+
+// 2.
+for (i=0; i<100; i++){
+    console.log(i);
+}
+    
