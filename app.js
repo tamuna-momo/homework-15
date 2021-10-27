@@ -1,5 +1,7 @@
 // // 1.
-// const currentDay=['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thusday', 'Friday', 'Satuday',]
+// const currentDay = [
+//     'Sunday','Monday', 'Tuesday', 'Wednesday', 'Thusday', 'Friday', 'Satuday',
+// ]
 // switch(currentDay) {
 //     case 0:
 //         console.log('Sunday');
@@ -57,16 +59,24 @@
 // numbers.push(i * i);
 
 // 6.
-let numArray=[ 
-    10, 9, 9, 8, 8, 11, 8, 0 ,9, 1
-];
-numArray.sort (function(a, b) {
-    return b - a;
-});
-console.log(numArray[1]);
+// let numArray=[ 10, 9, 9, 8, 8, 11, 8, 0 ,9, 1]
+// numArray.sort (function(a, b) {
+//     return b - a;
+// });
+// console.log(numArray[1]);
 
 
+// let largest=0;
+// let secondLargest=0;
+// let numArray=[ 10, 9, 9, 8, 8, 11, 8, 0 ,9, 1]
+// for(let i=0; i< numArray.length; i++){
+//     if (numArray[i]>largest ){
+//         secondLargest=largest;
+//         largest=numArray[i];
+//     } else if ( numArray[i]>secondLargest){
+//         secondLargest=numArray[i];
+//     }
+//     console.log(secondLargest);
+// }
 
-
-  
 
